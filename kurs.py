@@ -44,7 +44,24 @@
 # print(broj)
 
 
+# cas 2
+
+# domaci
+
+# 1. ars 3 uneta broja
+
+# broj1 = float(input("Unesite neki broj: "))
+# broj2 = float(input("Unesite neki broj: "))
+# broj3 = float(input("Unesite neki broj: "))
+
+# print("Aritmeticka sredina 3 uneta broja je: ", (broj1 + broj2 + broj3) / 3)
+
+# 2. povrsina pravougaonika
+
+# stranica_a = float(input("Unesite stranicu pravougaonika: "))
+# stranica_b = float(input("Unesite stranicu pravougaonika: "))
 
 
+# print("Povrsina pravougaonika je: ", stranica_a * stranica_b)
 
 
