@@ -171,6 +171,66 @@
 # ----------------------------------
 
 
+# broj_1 = float(input("Unesite neki broj: ")) 
+# broj_2 = float(input("Unesite neki broj: ")) 
+# broj_3 = float(input("Unesite neki broj: ")) 
+
+
+# print((broj_1 + broj_2) / broj_3)
+
+
+# --------------------------------------------
+
+
+
+# skola = "gimnazija"
+# #        012345678
+# #                -1
+
+# broj1 = "123456789"
+
+# # broj2 = 123456789
+
+# print(skola[   :  :  -1 ])
+
+
+# kurs = "pajton"
+#       0    5
+
+# print(kurs.lower())
+# print(kurs.upper())
+
+
+# print(len(kurs))
+
+# kurs = kurs.replace("p", "P")
+
+# print(kurs)
+
+
+# -----------------------------------
+
+
+# bjkvcxbihdvbi
+# 
+
+# pajton
+# rec = str(input("uNesite neku rec: "))
+
+# #               
+# rec = rec.replace(rec[0], rec[0].upper())
+
+# print(rec)
+
+
+# print(len("123456789"))
+
+
+
+
+
+
+
 
 
 
