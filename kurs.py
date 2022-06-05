@@ -227,10 +227,43 @@
 
 
 
+# 
 
 
 
+# broj1 = 5
+# broj2 = 6
 
+# #    
+# if broj1 > broj2:
+#     print("nesto")
+#     print("nesto")
+#     print("nesto")
+#     print("nesto")
+#     print("nesto")
+#     print("nesto")
+#     print("nesto")
+#     print("nesto")
+#     print("nesto")
+
+# else:
+#     print("guyugyugyttt")
+
+
+# ----------------------------------------
+
+
+
+broj1 = int(input("Unesite neki broj: "))
+
+#   -6   > 0
+if broj1 > 0:
+    print("Uneti rboj  je pozivtivan")
+else:
+    print("Uneti broj je negativan")
+
+
+# ----------------------------------
 
 
 
