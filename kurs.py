@@ -254,17 +254,83 @@
 
 
 
-broj1 = int(input("Unesite neki broj: "))
+# broj1 = int(input("Unesite neki broj: "))
 
-#   -6   > 0
-if broj1 > 0:
-    print("Uneti rboj  je pozivtivan")
-else:
-    print("Uneti broj je negativan")
+# #   -6   > 0
+# if broj1 > 0:
+#     print("Uneti rboj  je pozivtivan")
+# else:
+#     print("Uneti broj je negativan")
 
 
 # ----------------------------------
 
 
+# stranica_a = int(input("Unesite duzinu stranice: "))
+# stranica_b = int(input("Unesite duzinu stranice: "))
+
+# #        6 == 4
+# #        False 
+# if stranica_a == stranica_b:
+#     print("Povrsina kvadrata je: ", stranica_a**2)
+# else:
+#     print("Povrsina pravougaonika je: ", stranica_a * stranica_b)
 
 
+# -----------------------------------------------
+
+
+# rec = str(input("Unesite neku rec: "))
+# # print(rec)
+# if rec == rec[   :    :-1]:
+#     print("Uneta rec je palindrom")
+# else:
+#     print("Uneta rec nije palindrom")
+
+
+# 
+
+
+# pajton
+# 012345
+#      -1
+
+# print(rec[ : : -1])
+
+
+
+# --------------------------------------
+
+
+
+# broj = -5
+
+# #   -5 > 0
+# if broj > 0:
+#     print("Poz")
+#     #  -5 == 0
+# elif broj == 0:
+#     print("br je 0")
+# elif broj efbhubvuy
+# else:
+#     print("Neg")
+
+
+# -------------------------------------
+
+
+
+ocena = int(input("Unesite ocenu: "))
+
+if ocena == 5:
+    print("Odlican")
+elif ocena == 4:
+    print("Vrlo dobar")
+elif ocena == 3:
+    print("Dobar")
+elif ocena == 2:
+    print("Dovoljan")
+elif ocena == 1:
+    print("Nedovljan")
+else:
+    print("Pogresan unos")
