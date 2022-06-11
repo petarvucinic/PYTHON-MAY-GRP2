@@ -372,11 +372,34 @@
 # ---------------------------
 
 
+# mesec = int(input("Unesite bro jmeseca: "))
+
+# if mesec == 1:
+#     print("Jan")
+# elif mesec == 2:
+#     print("Feb")
+# elif mesec == 3:
+#     print("Mart")
+# elif mesec == 4:
+#     print("April")
 
 
+# -------------------------
 
 
+# + - * /
+broj_1 = int(input("Unesite neki broj "))
+broj_2 = int(input("Unesite drugi broj "))
+operacija = str(input("Izaberite operaciju(+,-,/,*) "))
 
+if "+" in operacija:
+    print(broj_1+broj_2)
+elif operacija == "-":
+    print(broj_1 - broj_2)
+elif operacija == "/":
+    print(broj_1/broj_2)
+elif operacija == "*":
+    print(broj_1*broj_2)
 
 
 
