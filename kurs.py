@@ -320,17 +320,68 @@
 
 
 
-ocena = int(input("Unesite ocenu: "))
+# ocena = int(input("Unesite ocenu: "))
 
-if ocena == 5:
-    print("Odlican")
-elif ocena == 4:
-    print("Vrlo dobar")
-elif ocena == 3:
-    print("Dobar")
-elif ocena == 2:
-    print("Dovoljan")
-elif ocena == 1:
-    print("Nedovljan")
-else:
-    print("Pogresan unos")
+# if ocena == 5:
+#     print("Odlican")
+# elif ocena == 4:
+#     print("Vrlo dobar")
+# elif ocena == 3:
+#     print("Dobar")
+# elif ocena == 2:
+#     print("Dovoljan")
+# elif ocena == 1:
+#     print("Nedovljan")
+# else:
+#     print("Pogresan unos")
+
+
+# -----------------------------------------
+
+
+
+# godina = int(input("Unesite broj godina: "))
+
+# #    7 < 6
+# # 
+# if godina < 6:
+#     print("Vi ste dete.")
+#     #   7 > 6 and 7 < 18
+# elif godina > 6 and godina < 18:
+#     print("Vi ste adolescent.")
+
+# elif godina > 18:
+#     print("Vi ste odrastao covek.")
+
+
+# -----------------------------------
+
+
+# # 5
+# broj = int(input("Unesit eneki broj: "))
+
+
+# #   5 % 2 = 1
+# #       1 == 0
+# if broj % 2 == 0:
+#     print("Broj je paran.")
+# else:
+#     print("Broj je neparan.")
+
+
+# ---------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
