@@ -462,6 +462,69 @@
 
 
 
+# a = int(input("Unesite duzinu stranice: "))
+# b = int(input("Unesite duzinu stranice: "))
+# c = int(input("Unesite duzinu stranice: "))
+
+
+# if a + b > c or b + c > a or a + c > b:
+#     print("Trougao postoji")
+#     if a == b == c:
+#         print("jednakostranican")
+#     elif a != b != c:
+#         print("Raznostrani")
+#     elif a == b != c or a == c != b or b == c != a:
+#         print("Jednakokraki")
+# else:
+#     print("Trougao ne postoji")
+
+
+
+# ------------------------------
+
+
+# pero 
+# Pero
+
+# Pero => uneli ste vec 
+
+# -------------------------
+
+
+# rec = str(input("Unesite neku rec: "))
+
+
+# #  V  == V
+# if rec[0] == rec[0].upper():
+#     print("Uneli ste rec sa velikim pocetnik slovom")
+# else:
+#     rec = rec.replace(rec[0], rec[0].upper())
+#     print(rec)
+
+# ---------------------------------
+
+
+
+
+# fizz   3 
+# buzz   5
+# fizzbuzz   3 5
+
+
+
+# broj = int(input("Unesite neki broj: "))
+
+
+# if broj % 3 == 0 and broj % 5 == 0:
+#     print("fizzbuzz")
+# elif broj % 3 == 0:
+#     print("fizz")
+# elif broj % 5 == 0:
+#     print("buzz")
+# else:
+#     print(broj)
+
+
 
 # -----------------------------------------
 
