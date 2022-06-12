@@ -387,24 +387,83 @@
 # -------------------------
 
 
-# + - * /
-broj_1 = int(input("Unesite neki broj "))
-broj_2 = int(input("Unesite drugi broj "))
-operacija = str(input("Izaberite operaciju(+,-,/,*) "))
+# # + - * /
+# broj_1 = int(input("Unesite neki broj "))
+# broj_2 = int(input("Unesite drugi broj "))
+# operacija = str(input("Izaberite operaciju(+,-,/,*) "))
 
-if "+" in operacija:
-    print(broj_1+broj_2)
-elif operacija == "-":
-    print(broj_1 - broj_2)
-elif operacija == "/":
-    print(broj_1/broj_2)
-elif operacija == "*":
-    print(broj_1*broj_2)
-
-
+# if "+" in operacija:
+#     print(broj_1+broj_2)
+# elif operacija == "-":
+#     print(broj_1 - broj_2)
+# elif operacija == "/":
+#     print(broj_1/broj_2)
+# elif operacija == "*":
+#     print(broj_1*broj_2)
 
 
 
+# ---------------------------------------
+
+
+# broj = int(input("Unesite neki broj: "))
+
+
+# if broj % 2 == 0 and broj % 3 == 0:
+#     print("Uneti broj je deljiv sa 6")
+# else:
+#     print("Broj nije deljiv sa 6.")
+
+
+
+# ---------------
+
+
+# rec = str(input("Unesite neku rec: "))
+
+
+
+# if 'a' in rec or 'e' in rec or 'u' in rec:
+#     print("U unetoj reci se nalzai neki od samoglasnika")
+# else:
+#     print("U unetoj reci nema samoglasnika")
+
+
+# -----------------------
+
+
+
+# var = 6.45
+
+# print(int(var))
+
+# a = 6
+
+# print(float(a))
+
+
+# print(bool(0))
+
+# var = 6285288
+
+# print(str(var))
+
+# rec = "vbguudyvgyduv"
+
+# print(float(rec))
+
+
+# var = 1881418
+
+
+# print(type(var))
+
+# ----------------------------------------------
+
+
+
+
+# -----------------------------------------
 
 
 
