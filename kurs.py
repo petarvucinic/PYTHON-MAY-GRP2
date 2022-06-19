@@ -632,5 +632,39 @@
 # --------------------------------------------------
 
 
+
+# broj = int(input("Unesite neki broj: "))
+
+# faktorijel = 1
+
+# #               5   0    -1
+# for i in range(broj, 0, -1):
+#     # faktorijel *= i
+# #       5              1   *    5
+# #      20             5   *    4
+# #       60            20     *   3
+# #         120            60   * 2
+# #         120           120  * 1
+#     faktorijel = faktorijel * i
+
+# print(faktorijel)
+
+
+
+# -----------------------------------------------------
+
+
+
+
+
+# poc = int(input("Unesite pocetnu brednost: "))
+# kraj = int(input("unesite krajnju bvrednost"))
+
+
+# for i in range(poc, kraj):
+#     print(i)
+
+
+
 # ---------------
 
