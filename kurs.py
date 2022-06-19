@@ -530,3 +530,107 @@
 
 
 
+# 0 crvena
+# 1 plava
+# 2 zuta
+
+
+# broj = int(input("Unesite neki broj: "))
+
+# #   7 % 3 = 1 == 0
+# if broj % 3 == 0:
+#     print("crvena")
+# elif broj % 3 == 1:
+#     print("plava")
+# else:
+#     print("zuta")
+
+
+# ----------------------------------------
+
+# dihuvhfdv
+# 012345678
+
+
+# for i in range(10, 1, -1):
+#     print(i)
+    
+
+
+# -----------
+
+
+
+
+
+# for i in range(0, 100, 2):
+#     print(i)
+
+
+# for i in range(1, 100):
+#     #  1 % 2 == 0
+#     if i % 2 == 0:
+#         print(i)
+
+
+# -----------------
+
+
+# rec = "pajton"
+# #      012345
+
+# print(rec[0])
+# # for i in range(6)
+# for i in range(len(rec)):
+#     # print(rec[])
+#     print(rec[i])
+
+
+# for i in rec:
+#     print(i)
+
+
+
+# -----------------------------------------
+
+# x = 5
+
+# # 6    5 + 1 
+# # x = x + 1
+# # x += 1
+
+# print(x)
+# x = 4
+# x = 6
+# print(x)
+
+
+# suma = 0
+
+# for i in range(1, 101):
+#     # print(i)
+#     #  1      0 + 1
+#     # 3      1   + 2
+#     suma = suma + i
+
+# print(suma)
+
+
+# --------------------------------------------
+
+
+# broj = 5
+
+# 5 = 5 * 4 * 3* 2 *1
+
+# 6 = 6 * 5 *4 *3 *2 *1
+
+
+# 10 = 10 * 9 *8 *7... * 1
+
+
+# --------------------------------------------------
+
+
+# ---------------
+
