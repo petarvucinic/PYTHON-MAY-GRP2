@@ -668,3 +668,99 @@
 
 # ---------------
 
+
+# 1 + 2 + 3)
+
+# kvardat_zbira = 0
+# zbir_kvadrata = 0
+
+
+# for i in range(1, 101):
+#     #      1               0   +   1
+#     #      3             1      +    2
+#     kvardat_zbira = kvardat_zbira + i
+
+# #                   0 + i**2
+# #           1        0 +  1
+# #        5             1 + 4
+#     zbir_kvadrata += i**2
+
+
+# print(kvardat_zbira**2 - zbir_kvadrata)
+
+
+# --------------------------------------------
+
+
+# fizz
+# buzz
+# fizzbuzz
+
+# 1 domaci 
+# for i in range(1, 51):
+#     if i % 3 == 0 and i % 5 == 0:
+#         print("fizzbuzz")
+#     elif i % 3 == 0:
+#         print("fizz")
+#     elif i % 5 == 0:
+#         print("buzz")
+#     else:
+#         print(i)
+
+
+# -------------------------------------
+
+# 2. dom
+
+# n = int(input("Unesite krajnju vrednost: "))
+
+# for i in range(1, n):
+#     print(i**2, end=", ")
+
+
+
+# -------------------------------------------
+
+
+
+# 1
+# 22
+# 333
+# 4444
+# 55555
+# 666666
+# 7777777
+# 88888888
+# 999999999
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# --------
+
+# 6 x 1 = 6
+# 6 x 2 = 12
+# 6 x 3 = 18
+# 6 x 4 = 24
+# 6 x 5 = 30
+# 6 x 6 = 36
+# 6 x 7 = 42
+# 6 x 8 = 48
+# 6 x 9 = 54
+# 6 x 10 = 60
+
+
+
