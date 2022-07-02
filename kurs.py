@@ -764,6 +764,8 @@
 
 # ------------------------------------------------
 
+
+
 # print("------------------------------------------------------------------------------------------")
 
 # print("                           multiplication table")
@@ -775,3 +777,97 @@
 #     print()
 
 # print("------------------------------------------------------------------------------------------")
+
+# suma = 0
+
+# for i in range(1, 1000):
+#     if i % 3 == 0 or i % 5 == 0:
+#         # suma += i 
+#         suma = suma + i
+
+# print(suma)
+
+
+# --------------------------------------------------------
+
+# suma = 0
+
+# for i in range(1, 1001):
+#     suma = suma + i**i 
+
+# print(str(suma)[-10:  : 1])
+
+
+# rec = 'uivuidhvuihvufdv'
+# #      0123456
+
+# print(rec[ -5: : -1])
+
+
+# ----------------------------------
+
+
+# broj = 123456789
+
+
+# for i in range(broj):
+#     print(i)
+
+# rec = "vdugygvv"
+
+# #                 10
+# for i in range(len(rec)):
+#     print(rec[i])
+
+
+# broj = int(input("unesite neki broj: "))
+# # novi_broj = broj
+
+# suma = 0
+
+# for i in str(broj):
+#     #         '1' => 1
+#     #  
+#     suma += int(i) 
+    
+# print(suma)
+
+# ----------------------------------------
+
+
+# for i in range(1, 10):
+#     if i == 7:
+#         break
+#     print(i)
+
+# --------------------------
+
+
+for a in range(1, 1000):
+    for b in range(1, 1000):
+        for c in range(1, 1000):
+            if a < b < c and a + b + c == 1000 and a**2 + b**2 == c**2:
+                print(a*b*c)
+                break
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
