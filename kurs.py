@@ -843,13 +843,117 @@
 # --------------------------
 
 
-for a in range(1, 1000):
-    for b in range(1, 1000):
-        for c in range(1, 1000):
-            if a < b < c and a + b + c == 1000 and a**2 + b**2 == c**2:
-                print(a*b*c)
-                break
+# for a in range(1, 1000):
+#     for b in range(1, 1000):
+#         for c in range(1, 1000):
+#             if a < b < c and a + b + c == 1000 and a**2 + b**2 == c**2:
+#                 print(a*b*c)
+#                 break
 
+
+
+
+# ----------------------------------------------------
+
+
+
+# pocetni = 0
+# krajnji = 10
+# #    10 < 10
+# while True:
+#     print(pocetni)
+
+#     pocetni += 1
+#     if pocetni == 15:
+#         break
+
+
+# print(pocetni)
+
+
+# ----------------------
+
+
+while True:
+    print("1) Sbiranje")
+    print("2) Oduzimanje")
+    print("3) Mnozenje")
+    print("4) Deljenje")
+    print("5) Izlaz iz programa")
+    operacija = int(input("Unesite broj operacije: "))
+    
+    broj1 = int(input("Unesite prvi broj: "))
+    broj2 = int(input("Unesite drugi broj: "))
+
+    if operacija == 1:
+        print(broj1 + broj2)
+    elif operacija == 2:
+        print(broj1 - broj2)
+    elif operacija == 3:
+        print(broj1 * broj2)
+    elif operacija == 4:
+        print(broj1 / broj2)
+    elif operacija == 5:
+        break
+
+
+# brojac = 0
+
+# while brojac < 15:
+#     brojac += 1
+#     print(brojac ** 2)
+
+
+
+# -----------------------------------------
+
+# from random import randint
+
+
+# kompjuterov_broj = randint(1, 1000)
+
+# br_pokusaja = 0
+
+# while True:
+#     br_pokusaja += 1
+#     nas_broj = int(input("Unesite neki broj: "))
+#     if nas_broj > kompjuterov_broj:
+#         print("Uneli se broj veci od kompj")
+#     elif nas_broj < kompjuterov_broj:
+#         print("Uneli ste broj mnaji od kompj")
+#     elif nas_broj == kompjuterov_broj:
+#         print("BRAVOOOOOOOOOOOOOOOOO. Pogodili ste broj iz", br_pokusaja, "pokusaja")
+#         # print()
+#         break
+
+
+# ------------------------------------------------------
+
+
+
+
+while True:
+    print("1) Sabiranje")
+    print("2) Oduzimanje")
+    print("3) Deljenje")
+    print("4) Mnozenje")
+    print("5) Izlaz iz programa")
+    operacija = str(input("Unesite broj operacije: "))
+    prvi_broj = int(input("Unesite neki broj: "))
+    drugi_broj = int(input("Unesite neki broj: "))
+
+    if operacija == '1':
+        print(prvi_broj + drugi_broj)
+    elif operacija == "2":
+        print(prvi_broj - drugi_broj)
+    elif operacija == "3":
+        print(prvi_broj * drugi_broj)
+    
+    elif operacija == "4":
+        print(prvi_broj / drugi_broj)
+
+    elif operacija == "5":
+        break
 
 
 
