@@ -3,7 +3,7 @@
 
 
 
-2. 
+3. 
 
 1
 22
@@ -16,7 +16,7 @@
 999999999
 
 
-3.
+4.
 
 n = 6
 
@@ -33,14 +33,13 @@ n = 6
 
 
 
-4.
+5.
 
 Na osnovu operacije  " + - * / " br1, br2
 5, 6, +
 Zbir je 11
 
-
-5.
+6.
 
 print(not 2 > 1 and 3 < 4 or 4 > 5 and 2 > 1 and 9 > 8 or 7 < 6)
        not   false
@@ -51,14 +50,14 @@ print(1 > 1 or 3 < 4 or 4 > 5 and 2 > 1 and 9 > 8 or 7 < 6)
 
 
 
-6.
+7.
 
 
 petar  => Petar
 Petar => Vec je prvo pocetno slovo
 
 
-7.
+8.
 
 1, 2, 3, 4. ...... 50
 
@@ -73,7 +72,7 @@ fizz
 buzz
 
 
-1.
+9.
 
  Write a Python program to find numbers between 100 and 400 (both included) where each digit of 
 a number is an even number. The numbers obtained should be printed in a comma-separated sequence.

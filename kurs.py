@@ -874,27 +874,27 @@
 # ----------------------
 
 
-while True:
-    print("1) Sbiranje")
-    print("2) Oduzimanje")
-    print("3) Mnozenje")
-    print("4) Deljenje")
-    print("5) Izlaz iz programa")
-    operacija = int(input("Unesite broj operacije: "))
+# while True:
+#     print("1) Sbiranje")
+#     print("2) Oduzimanje")
+#     print("3) Mnozenje")
+#     print("4) Deljenje")
+#     print("5) Izlaz iz programa")
+#     operacija = int(input("Unesite broj operacije: "))
     
-    broj1 = int(input("Unesite prvi broj: "))
-    broj2 = int(input("Unesite drugi broj: "))
+#     broj1 = int(input("Unesite prvi broj: "))
+#     broj2 = int(input("Unesite drugi broj: "))
 
-    if operacija == 1:
-        print(broj1 + broj2)
-    elif operacija == 2:
-        print(broj1 - broj2)
-    elif operacija == 3:
-        print(broj1 * broj2)
-    elif operacija == 4:
-        print(broj1 / broj2)
-    elif operacija == 5:
-        break
+#     if operacija == 1:
+#         print(broj1 + broj2)
+#     elif operacija == 2:
+#         print(broj1 - broj2)
+#     elif operacija == 3:
+#         print(broj1 * broj2)
+#     elif operacija == 4:
+#         print(broj1 / broj2)
+#     elif operacija == 5:
+#         break
 
 
 # brojac = 0
@@ -964,14 +964,44 @@ while True:
 # @#$ barem 1
 
 
+# while True:
+#     sifra = str(input("Unesite neki sifru: "))
+#     if 8 <= len(sifra) <= 17:
+#         print("Uneli ste odgovarajucu duzinu sifre.")
+#         br_brojeva = 0
+#         flag = False
+#         for i in sifra:
+#             if i in '1234567890':
+#                 br_brojeva += 1
+#             if i in '@#$':
+#                 flag = True
+#         if br_brojeva > 1 and flag:
+#             print("Uneli ste odgovarajucu sifru.")
+#             break
+#     else:
+#         print("Sifra nije odgovarajuce duzine.")
+        
 
+# --------------------------------
 
+# Izračunati aritmetičku sredinu prirodnih brojeva od k do n koji nisu djeljivi sa 7.
 
+# 5
+k = int(input("Uneste vrednost za k: "))
+n = int(input("Uneste vrednost za n: "))
 
+suma = 0
+br_br = 0
 
+#     10 < 10
+while k < n:
+    if k % 7 != 0:
+        suma += k
+        br_br += 1
 
+    k += 1
 
-
+print(f"Aritmeticka sredina je {suma / br_br}, br {br_br}, suma {suma}")
 
 
 
