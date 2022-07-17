@@ -932,28 +932,37 @@ while True:
 
 
 
-while True:
-    print("1) Sabiranje")
-    print("2) Oduzimanje")
-    print("3) Deljenje")
-    print("4) Mnozenje")
-    print("5) Izlaz iz programa")
-    operacija = str(input("Unesite broj operacije: "))
-    prvi_broj = int(input("Unesite neki broj: "))
-    drugi_broj = int(input("Unesite neki broj: "))
+# while True:
+#     print("1) Sabiranje")
+#     print("2) Oduzimanje")
+#     print("3) Deljenje")
+#     print("4) Mnozenje")
+#     print("5) Izlaz iz programa")
+#     operacija = str(input("Unesite broj operacije: "))
+#     prvi_broj = int(input("Unesite neki broj: "))
+#     drugi_broj = int(input("Unesite neki broj: "))
 
-    if operacija == '1':
-        print(prvi_broj + drugi_broj)
-    elif operacija == "2":
-        print(prvi_broj - drugi_broj)
-    elif operacija == "3":
-        print(prvi_broj * drugi_broj)
+#     if operacija == '1':
+#         print(prvi_broj + drugi_broj)
+#     elif operacija == "2":
+#         print(prvi_broj - drugi_broj)
+#     elif operacija == "3":
+#         print(prvi_broj * drugi_broj)
     
-    elif operacija == "4":
-        print(prvi_broj / drugi_broj)
+#     elif operacija == "4":
+#         print(prvi_broj / drugi_broj)
 
-    elif operacija == "5":
-        break
+#     elif operacija == "5":
+#         break
+
+
+# --------------------------------------------
+
+
+# 8 - 17
+# 123456789 barem 2
+# @#$ barem 1
+
 
 
 

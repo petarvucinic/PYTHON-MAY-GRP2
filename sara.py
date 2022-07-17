@@ -36,14 +36,23 @@
 
 # - zadatak
 
+# rec = str(input("Unesite neku rec: "))
+
+# if len(rec) >= 10:
+#     print("Rec sadrzi vise od 10 slova")
+# else:
+#     print("Rec sadrzi manje od 10 slova.")
 
 
+# -----
+
+rec = str(input("Unesite neku rec: "))
 
 
-
-
-
-
+if rec[0] == 'a' :
+    print("prvo slovo je a")
+else:
+    print("prvo slovo nije a")
 
 
 

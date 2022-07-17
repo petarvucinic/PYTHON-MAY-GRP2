@@ -1,12 +1,5 @@
-1.
-
- Write a Python program to find numbers between 100 and 400 (both included) where each digit of 
-a number is an even number. The numbers obtained should be printed in a comma-separated sequence.
-
-1,2,3,4
-200, 202, 204
-101 - f
-204 - t
+1. sta je pajton?
+2.kako smo podelili tipove podataka u pajtonu, i koji su to?
 
 
 
@@ -50,7 +43,9 @@ Zbir je 11
 5.
 
 print(not 2 > 1 and 3 < 4 or 4 > 5 and 2 > 1 and 9 > 8 or 7 < 6)
-
+       not   false
+               false and false 
+                    true   
 
 print(1 > 1 or 3 < 4 or 4 > 5 and 2 > 1 and 9 > 8 or 7 < 6)
 
@@ -67,12 +62,23 @@ Petar => Vec je prvo pocetno slovo
 
 1, 2, 3, 4. ...... 50
 
-fizzbuzz 3 5 
 fizz 3 
+fizzbuzz 3 5 
 buzz 5
 
 1
 2
 fizz
-4 
+4
 buzz
+
+
+1.
+
+ Write a Python program to find numbers between 100 and 400 (both included) where each digit of 
+a number is an even number. The numbers obtained should be printed in a comma-separated sequence.
+
+1,2,3,4
+200, 202, 204
+101 - f
+204 - t
