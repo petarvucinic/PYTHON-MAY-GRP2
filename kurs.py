@@ -1007,6 +1007,128 @@
 
 #   6
 
+# --------------------------- liste
+
+
+
+# lista = [True, "1234567", 54, 54.14, 54, True]
+# #         0         1      2    3     4    5
+
+# # print(lista[2])
+
+# for i in lista:
+#     print(i)
+
+# print("-" * 100)
+
+# for i in range(len(lista)):
+#     print(lista[i])
+
+
+# lista = [True, "1234567", 54, 54.14, 54, True]
+# lista2 = [1, 2, 3, 4]
+
+# lista[1] = "1234567890"
+
+# print(lista)
+
+
+# lista.append("1234567890-")
+# lista.remove(True)
+# lista.pop(1)
+# lista.insert(1, "1111111111")
+# lista.clear()
+# lista.extend(lista2)
+
+# lista3 = lista2
+# print(lista3)
+
+# print(lista)
+
+
+# --------------------------------------
+
+# lista = [1, 4, 6, 2, 3, 3, 4, 7, 9, 8, 14, 11]
+
+# br_parnih = 0
+# for i in lista:
+#     if i % 2 == 0:
+#         br_parnih += 1 
+# print(f"U ovoj listi se nalazi {br_parnih} parnih brojeva")
+
+# -------------------------------------
+
+# lst = [1, 2, -4, 5, -14, -11, 11, 12, -54]
+# # [1, 2, 5]
+
+# res = []
+# res2 = []
+# for i in lst:
+#     if i > 0:
+#         res.append(i)
+#     else:
+#         res2.append(i)
+
+# print(res)
+# print(res2)
+
+
+# -----------------------------------------
+
+# lst = [1, 2, 3, 4, 5, 6, 7]
+# # [1, 4, 9, 16, 25]
+
+# res = []
+# for i in lst:
+#     res.append(i**2)
+# print(res)
+
+# --------------------------------------
+
+lst = []
+
+br_el = int(input("Unesite koliko elementa zelite da vasa lista ima: "))
+
+for i in range(br_el):
+    element = int(input("Unesite vr elemnta: "))
+    lst.append(element)
+print(lst)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
