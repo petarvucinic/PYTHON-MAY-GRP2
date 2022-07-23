@@ -987,23 +987,25 @@
 # Izračunati aritmetičku sredinu prirodnih brojeva od k do n koji nisu djeljivi sa 7.
 
 # 5
-k = int(input("Uneste vrednost za k: "))
-n = int(input("Uneste vrednost za n: "))
+# k = int(input("Uneste vrednost za k: "))
+# n = int(input("Uneste vrednost za n: "))
 
-suma = 0
-br_br = 0
+# suma = 0
+# br_br = 0
 
-#     10 < 10
-while k < n:
-    if k % 7 != 0:
-        suma += k
-        br_br += 1
+# #     10 < 10
+# while k < n:
+#     if k % 7 != 0:
+#         suma += k
+#         br_br += 1
 
-    k += 1
+#     k += 1
 
-print(f"Aritmeticka sredina je {suma / br_br}, br {br_br}, suma {suma}")
+# print(f"Aritmeticka sredina je {suma / br_br}, br {br_br}, suma {suma}")
 
+# ------------------------------
 
+#   6
 
 
 

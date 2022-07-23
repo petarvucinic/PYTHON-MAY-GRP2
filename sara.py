@@ -46,14 +46,61 @@
 
 # -----
 
-rec = str(input("Unesite neku rec: "))
+# rec = str(input("Unesite neku rec: "))
 
 
-if rec[0] == 'a' :
-    print("prvo slovo je a")
-else:
-    print("prvo slovo nije a")
+# if rec[0] == 'a' :
+#     print("prvo slovo je a")
+# else:
+#     print("prvo slovo nije a")
 
+
+# --------
+
+
+# for i in range(1, 6):
+#     print(i)
+
+
+
+# for i in range(1, 6, 2):
+#     print(i)
+
+
+
+# for i in range(6):
+#     print(i)
+
+
+
+# -------------------------------------
+
+
+# rec = "python" 
+
+# for i in rec:
+#     print(i)
+#     if True:
+
+# -------------
+
+# for i in range(3, 9):
+#     print(i)
+
+
+# ---------------------
+
+# for i in range(1, 10):
+#     #    1 % 2 
+#     if i % 2 == 0:
+#         print(i)
+
+
+
+# domaci
+
+# 1.ispisati neprane brojeve od 1 - 20
+# 2.ispisati brojeve od 3 do 13 unazad
 
 
 
