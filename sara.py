@@ -102,5 +102,19 @@
 # 1.ispisati neprane brojeve od 1 - 20
 # 2.ispisati brojeve od 3 do 13 unazad
 
+# for i in range(10):
+#     print("pajton")
 
 
+# print("kurs")
+
+
+
+
+
+# rec ="python"
+# #     012345
+# #          -2 -1
+
+
+# print(rec[-2])
