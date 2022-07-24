@@ -1085,18 +1085,109 @@
 
 # --------------------------------------
 
-lst = []
+# lst = []
 
-br_el = int(input("Unesite koliko elementa zelite da vasa lista ima: "))
+# br_el = int(input("Unesite koliko elementa zelite da vasa lista ima: "))
 
-for i in range(br_el):
-    element = int(input("Unesite vr elemnta: "))
-    lst.append(element)
-print(lst)
+# for i in range(br_el):
+#     element = int(input("Unesite vr elemnta: "))
+#     lst.append(element)
+# print(lst)
 
 
 
 # ---------------------------------------
+
+
+# lst = [5, 4, 1.2, 1.0, 4, 4.44, 5, 448.45, True, False, [1, 2]]
+
+# br_int = 0
+# br_fl = 0
+# int_lista = []
+# float_lista = []
+
+# for i in lst:
+#     if type(i) == int:
+#         int_lista.append(i)
+#         br_int += 1
+#     elif type(i) == float:
+#         br_fl += 1
+#         float_lista.append(i)
+
+
+# print(f"U ovoj listi ima {br_int} int brojeva a {br_fl} float brojeva.")
+
+# print(int_lista, float_lista)
+
+
+# ----------------------------
+
+
+# lst = [1, 4, 5, 6, 0, 11, 24, 434, 3243,4,2, 523,5,3245,325,532,5432,5352,5]
+
+
+# suma = 0
+
+# for i in range(len(lst)):
+#     suma += lst[i]
+# print(suma)
+
+
+# ------------------------------
+
+
+
+# lst1 = ["red", "orange", "green", "blue", "white"]
+# lst2 = ["black", "yellow", "green", "blue"]
+
+# # ["green", "blue"]
+
+# res = []
+# # for i in range(5):
+# for i in range(len(lst1)):
+#     if lst1[i] in lst2:
+#         res.append(lst1[i])
+
+
+# print(res)
+
+
+# ------------------------------
+
+
+
+lst = ["p", "q"]
+
+res  = []
+for i in range(1, 6):
+    for j in lst:
+        res.append(j + str(i))
+
+
+print(res)
+
+
+
+# -----------------------------
+
+
+# domaci
+# 1. sve nule pomeriti na kraj liste
+# lst = [3, 4, 0, 0, 0, 6, 2, 0, 6, 7, 6, 0, 0, 0, 9, 10, 7, 4, 4, 5, 3, 0, 0, 2, 9, 7, 1]
+
+# 2.
+lst = [4, 65, 11, 1, 0, -5, 4, -1, 5, 4, 44, 9, 58, 1, 0]
+
+
+
+
+
+
+
+
+
+
+
 
 
 
