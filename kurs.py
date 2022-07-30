@@ -1156,15 +1156,15 @@
 
 
 
-lst = ["p", "q"]
+# lst = ["p", "q"]
 
-res  = []
-for i in range(1, 6):
-    for j in lst:
-        res.append(j + str(i))
+# res  = []
+# for i in range(1, 6):
+#     for j in lst:
+#         res.append(j + str(i))
 
 
-print(res)
+# print(res)
 
 
 
@@ -1176,7 +1176,11 @@ print(res)
 # lst = [3, 4, 0, 0, 0, 6, 2, 0, 6, 7, 6, 0, 0, 0, 9, 10, 7, 4, 4, 5, 3, 0, 0, 2, 9, 7, 1]
 
 # 2.
-lst = [4, 65, 11, 1, 0, -5, 4, -1, 5, 4, 44, 9, 58, 1, 0]
+# najveci i najmnji broj
+# lst = [4, 65, 11, 1, 0, -5, 4, -1, 5, 4, 44, 9, 58, 1, 0]
+
+
+# -----------------------------------------------
 
 
 

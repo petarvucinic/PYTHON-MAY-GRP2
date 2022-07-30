@@ -118,3 +118,83 @@
 
 
 # print(rec[-2])
+
+
+# ---------------------------------------------
+
+
+# for i in range(1, 16):
+#     if i % 2 == 1:
+#         print(i)
+
+
+
+# ------------------------------
+
+
+# 1 - 51
+# 3 fizz
+# 5 buzz
+# i 3 i 5 fizzbuzz
+# broj
+
+
+# 1
+# 2
+# fizz
+# 4
+# buzz
+# fizz
+# 7
+# 8
+# fizz
+# buzz
+
+
+
+for i in range(1, 51):
+    if i % 3 == 0 and i % 5 == 0:
+        print("fizzbuzz")
+    elif i % 3 == 0:
+        print("fizz")
+    elif i % 5 == 0:
+        print("buzz")
+    else:
+        print(i)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
