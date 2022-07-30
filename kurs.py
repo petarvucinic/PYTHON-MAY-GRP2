@@ -1183,6 +1183,149 @@
 # -----------------------------------------------
 
 
+# 1.
+
+# lst = [3, 4, 0, 0, 0, 6, 2, 0, 6, 7, 6, 0, 0, 0, 9, 10, 7, 4, 4, 5, 3, 0, 0, 2, 9, 7, 1]
+
+
+# for i in range(len(lst)):
+#     if lst[i] == 0:
+#         lst.remove(0)
+#         lst.append(0)
+
+# print(lst)
+
+# ------------------------------------------
+
+
+# lst = [4, 65, 11, 1, 0, -5, 4, -1, 5, 4, 44, 9, 58, 1, 0]
+
+# mini = maxi = 0
+# for i in range(len(lst)):
+#     if i == 0:
+#         maxi = mini = lst[0]
+#     elif lst[i] > maxi :
+#         maxi = lst[i]
+#     elif lst[i] < mini:
+#         mini = lst[i]
+    
+# print(mini, maxi)
+
+
+# -----------------------------------
+
+
+# lst = [0, 10, [20, 30], 40, 50, [60, 70, 80], [90, 100, 110, 120]]
+# # lst = [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120]
+
+# res = []
+
+# for i in lst:
+#     if type(i) == int:
+#         res.append(i)
+#     elif type(i) == list:
+#         res.extend(i)
+# print(res)
+
+
+# ------------------------------------------
+
+
+# matrica = [
+#     [1, 2],
+#     [1, 2],
+#     [1, 2]
+# # ]
+
+# matrica = [[1,2, 3],[1,2, 3]]
+# #            0     1
+# #           
+
+# #      [1, 2] 
+# print(matrica[2][1])
+
+
+# matrica = [
+#     [1, 2, 3],
+#     [1, 2, 3],
+#     [1, 2, 3],
+# ]
+
+
+# # for i in matrica:
+# #     for j in i:
+# #         print(j)
+
+# #  for i in range(3)
+
+# #  0 1 2  za i
+# #  0 1 2 za j
+# for i in range(len(matrica)):
+#     for j in range(len(matrica[i])):
+#         #  matrica[1][1]
+#         print(matrica[i][j])
+
+# lst = []
+
+
+# -----------------
+
+
+
+# n = int(input("Unesite koliko elemenata zelite da imate u listi: "))
+
+
+# for i in range(n):
+#     el = int(input(f"Unesite {i}. zeljeni element: "))
+#     lst.append(el)
+# print(lst)
+
+
+
+# ----------------------------------
+
+
+matrica = []
+
+n = int(input("Unesite br redova tj kolona: "))
+
+
+for i in range(n):
+    pom = []
+    for j in range(n):
+        # 5
+        element = int(input(f"Unesite {i, j} element matrice: "))
+        #  [5, 4, 3, 4, 5]
+        pom.append(element)
+
+        #  [[5, 4, 3], [5, 4, 3, 4, 5]]
+    matrica.append(pom)
+print(matrica)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
