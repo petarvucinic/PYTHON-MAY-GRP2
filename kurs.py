@@ -1383,23 +1383,60 @@
 # -------------------------------------
 
 
-matrica = [
-    [1, 2, 4],
-    [7, 4, 1],
-    [8, 3, 9],
-]
+# matrica = [
+#     [1, 2, 4],
+#     [7, 4, 1],
+#     [8, 3, 9],
+# ]
+
+# for i in range(len(matrica)):
+#     matrica[i][i] = 0
+# print(matrica)
+
+
+
+# for i in range(len(matrica)):
+#     for j in range(len(matrica)):
+#         if i == j:
+#             matrica[i][j] = 0
+# print(matrica)
+
+
+# --------------------
+
 
 # matrica = [
-#     [0, 2, 4],
-#     [7, 0, 1],
-#     [8, 3, 0],
+#     [1, 2, 4],
+#     [7, 4, 1],
+#     [8, 3, 9],
 # ]
 
 
+# for i in range(len(matrica)):
+#     # matrica[2][0]
+#     matrica[i][len(matrica) - 1 - i] = 0
+# print(matrica)
 
 
 
+# -----------------------
 
+# mat = [
+#     [1, 2, 3],
+#     [6, 7, 8], 
+#     [2, 5, 8] 
+# ]
+# #    9  14  19
+
+# for i in range(len(mat)):
+#     sumaredova = 0
+#     for j in range(len(mat)):
+#         sumaredova += mat[j][i]
+#         pom = sumaredova
+#     if sumaredova > pom:
+#         pom = sumaredova
+
+# print(pom)
 
 
 
