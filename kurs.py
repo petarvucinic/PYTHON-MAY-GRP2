@@ -1285,22 +1285,133 @@
 # ----------------------------------
 
 
-matrica = []
+# matrica = []
 
-n = int(input("Unesite br redova tj kolona: "))
+# n = int(input("Unesite br redova tj kolona: "))
 
 
-for i in range(n):
-    pom = []
-    for j in range(n):
-        # 5
-        element = int(input(f"Unesite {i, j} element matrice: "))
-        #  [5, 4, 3, 4, 5]
-        pom.append(element)
+# for i in range(n):
+#     pom = []
+#     for j in range(n):
+#         # 5
+#         element = int(input(f"Unesite {i, j} element matrice: "))
+#         #  [5, 4, 3, 4, 5]
+#         pom.append(element)
 
-        #  [[5, 4, 3], [5, 4, 3, 4, 5]]
-    matrica.append(pom)
-print(matrica)
+#         #  [[5, 4, 3], [5, 4, 3, 4, 5]]
+#     matrica.append(pom)
+# print(matrica)
+
+
+
+
+# -------------------------------
+
+
+# matrix = [[0, 1, 2, 3, 4],
+#           [0, 1, 2, 3, 4],
+#           [0, 1, 2, 3, 4],
+#           [0, 1, 2, 3, 4],
+#           [0, 1, 2, 3, 4]]
+
+# matrix = []
+
+# for i in range(5):
+#     pom = []
+#     for j in range(5):
+#         pom.append(j)
+#     matrix.append(pom)
+
+# for i in range(len(matrix)):
+#     for j in range(len(matrix[j])):
+#         print(matrix[i][j] , end="\t")
+#     print()
+
+
+# ----------------------------
+
+
+# broj = 5
+
+# lst = [1, 5, 4, 6, True, "dftcc"]
+# #      0  1   2  3  4       5
+
+# # lst.remove(1)
+# # lst.pop(2)
+
+
+# print(lst)
+
+
+# ------------------------
+
+
+# lst = [
+#     [1, 2, 3],
+#     [1, 2, 3],
+#     [1, 2, 3],
+#  ]
+# #          0           1
+# # n x n
+# # n x m
+
+# print(lst[-1][-1])
+
+# # for i in range(0, 3)
+# for i in range(len(lst)):
+#     for j in range(len(lst[i])):
+#         print(lst[i][j])
+
+
+# -------------------------------
+
+
+# plantes = [['Mercury', 'Venus', 'Earth'], ['Mars', 'Jupiter', 'Saturn'], ['Uranus', 'Nepotn'," pluton"]]
+
+# res = []
+
+# for i in range(len(plantes)):
+#     for j in range(len(plantes[i])):
+#         if len(plantes[i][j]) > 6:
+#             res.append(plantes[i][j])
+
+
+# print(res)
+
+
+
+# -------------------------------------
+
+
+matrica = [
+    [1, 2, 4],
+    [7, 4, 1],
+    [8, 3, 9],
+]
+
+# matrica = [
+#     [0, 2, 4],
+#     [7, 0, 1],
+#     [8, 3, 0],
+# ]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
